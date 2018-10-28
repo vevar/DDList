@@ -1,4 +1,4 @@
-package com.alxminyaev.main
+package com.alxminyaev.main.DDList
 
 trait IList[T] {
   def add(elem : T)
