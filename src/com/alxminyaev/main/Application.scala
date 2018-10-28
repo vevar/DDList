@@ -3,8 +3,9 @@ package com.alxminyaev.main
 import com.alxminyaev.main.DDList.DDList
 
 object Application extends App {
-  println("Hello world")
-  var list = new DDList[Int]
-  list.add(5)
+  val list = new DDList[Int]
+  for (i <- 0 to 6) {
+    list.add(i)
+  }
   println(5)
 }
